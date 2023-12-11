@@ -1,6 +1,6 @@
 package HomeWork04_12_23;
 
-public class Ex2 {
+public class FactoryPetrovSec {
     public static void main(String[] args) {
         /* Задание 2 На некотором предприятии инженер Петров создал устройство, на табло которого
 показывается количество секунд, оставшихся до конца рабочего дня. Когда рабочий день
