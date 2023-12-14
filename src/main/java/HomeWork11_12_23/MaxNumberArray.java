@@ -23,7 +23,7 @@ public class MaxNumberArray {
         System.out.println("Max number = " + temp);
     }
 
-    static void print(int array[]) {
+    public static void print(int array[]) {
         for (int number : array) {
             System.out.print(number + " ");
         }
