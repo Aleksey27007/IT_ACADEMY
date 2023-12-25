@@ -11,6 +11,10 @@ public class Fraction {
         this.denominator = denominator;
     }
 
+    public Fraction(){
+
+    }
+
     public void printFraction() { // Создайте метод класса, который будет выводить дробь в текстовую строку в формате x / y;
         System.out.printf("This is your fraction : %d / %d\n", this.numerator, this.denominator);
     }
