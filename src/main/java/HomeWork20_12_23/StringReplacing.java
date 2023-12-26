@@ -24,5 +24,6 @@ public class StringReplacing {
             messageBuffer.append(zzz);
         }
         System.out.println(messageBuffer);
+        scanner.close();
     }
 }
