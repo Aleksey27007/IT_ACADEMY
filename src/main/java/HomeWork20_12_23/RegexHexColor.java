@@ -27,8 +27,7 @@ public class RegexHexColor {
 
         while(matcher.find()) {
             color = matcher.group();
+            System.out.println(color);
         }
-
-        System.out.println(color);
     }
 }
