@@ -19,7 +19,7 @@ public abstract class AbstractHomeAppliences {
     }
 
     public void info() {
-        System.out.printf("Name: %s Model: %s Wattage: %d\n", name, model, wattage);
+        System.out.printf("Name: %s Model: %s Wattage: %d per hour.\n", name, model, wattage);
     }
 
     public String getName() {
