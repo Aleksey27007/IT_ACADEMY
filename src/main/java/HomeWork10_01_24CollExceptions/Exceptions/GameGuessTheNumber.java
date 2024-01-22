@@ -9,7 +9,6 @@ public class GameGuessTheNumber {
         //Реализуйте игру “Угадай число” от 1 до 100 с подсказкой - “искомое число больше/меньше”
         //При неправильном вводе, обработайте ошибку и сообщите пользователю
         int gameStart = getRandomNumber();
-        System.out.println(gameStart);
         int myNumber = 0;
 
         while (myNumber != gameStart) {
