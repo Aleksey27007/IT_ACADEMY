@@ -34,8 +34,8 @@ public class CreateFilesWithNumbers {
         return combinedSet;
     }
     private static Set<Integer> createNewNumbsFile(String outputFile, int range, int maxRange, Random random) {
-                                    // параметр нужно менять что б создать разные файлы
         Set<Integer> numbersSet = new TreeSet<>();
+
         // Класс DataOutputStream представляет поток вывода и предназначен для записи данных примитивных типов, таких, как int, double и т.д
         try (final DataOutputStream dos = new DataOutputStream(new FileOutputStream(outputFile))) {
             for (int i = 0; i < maxRange; i++) {
