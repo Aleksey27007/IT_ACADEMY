@@ -1,11 +1,9 @@
 package Lesson19Threads.ExerciseOne;
 
-
 import java.util.Set;
 import java.util.UUID;
 
 public class Developer {
-
     private UUID id;
     private String name;
     private Set<ProgrammingLanguage> programmingLanguages;
@@ -40,12 +38,20 @@ public class Developer {
         this.programmingLanguages = programmingLanguages;
     }
 
-    public void deleteProgLanguage(ProgrammingLanguage language) {
+    public void deleteProgrammingLanguage(ProgrammingLanguage language) {
         this.programmingLanguages.remove(language);
     }
 
-    public void addProgLanguage(ProgrammingLanguage language) {
+    public void addProgrammingLanguage(ProgrammingLanguage language) {
         this.programmingLanguages.add(language);
     }
 
+    @Override
+    public String toString() {
+        return "Developer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", programmingLanguages=" + programmingLanguages +
+                '}';
+    }
 }
