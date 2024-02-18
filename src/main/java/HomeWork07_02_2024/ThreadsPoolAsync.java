@@ -34,6 +34,11 @@ public class ThreadsPoolAsync {
         Future<Integer> sumFromTask2 = executorService.submit(task2);
 
         executorService.shutdown();
+        try {
+            executorService.awaitTermination(Long.MAX_VALUE, TimeUnit.NANOSECONDS);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         sampleResults(sumFromTask1.get(), sumFromTask2.get());
     }
