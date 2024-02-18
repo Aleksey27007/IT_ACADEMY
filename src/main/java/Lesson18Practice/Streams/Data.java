@@ -2,7 +2,6 @@ package Lesson18Practice.Streams;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class Data {
     private static List<Person> persons = new ArrayList<>();
