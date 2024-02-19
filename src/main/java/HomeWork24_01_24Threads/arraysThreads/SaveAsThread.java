@@ -4,9 +4,9 @@ import java.io.*;
 
 public class SaveAsThread extends Thread {
 
-    private final String PATH = "D:\\IntJava\\IT_Academy\\IT_AcademyLessonsAndHomeW\\src\\main\\java\\HomeWork24_01_24Threads\\arraysThreads\\";
-    private final String FILE_NAME = "your_arrays.txt";
-    private final String ABSOLUTE_PATH = PATH + FILE_NAME;
+    private final static String PATH = "D:\\IntJava\\IT_Academy\\IT_AcademyLessonsAndHomeW\\src\\main\\java\\HomeWork24_01_24Threads\\arraysThreads\\";
+    private final static String FILE_NAME = "your_arrays.txt";
+    private final static String ABSOLUTE_PATH = PATH + FILE_NAME;
     private Object obj = new Object();
     private int[] array;
 
